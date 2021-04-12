@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Antimoine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylelog.css">
+</head>
+<body>
+
+    <h1>Admin page</h1>
+
+    <div class="create">
+        <form action="/action_page.php" method="post">
+
+            <legend><h2>New Product</h2></legend>
+            <div class="container">
+                <label for="name"><b>Image</b></label></br>
+                <input type="text" placeholder="Enter url" name="url" required></br>
+
+                <label for="name"><b>Name</b></label></br>
+                <input type="text" placeholder="Enter name" name="name" required></br>
+
+                <label for="description"><b>Description</b></label></br>
+                <input type="text" placeholder="Enter description" name="description" required></br>
+
+                <label for="price"><b>Price</b></label></br>
+                <input type="text" placeholder="price" name="price" required></br>
+
+                <label for="categorie"><b>Categorie</b></label></br>
+                <input type="text" placeholder="categorie" name="categorie" required></br>
+
+                <button type="submit" class="log">Add a new product</button>
+            </div>
+
+            <div class="container">
+                <button type="button"> <a class="cancelbtn" href="header.html">Cancel</a></button>
+            </div>
+        </form>
+    </div>
+
+</body>

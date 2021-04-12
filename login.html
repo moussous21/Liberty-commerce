@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="stylelog.css">
+    <title>Antimoine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <h1>Welcome back !</h1>
+
+    <div class="login">
+    <form action="/action_page.php" method="post">
+
+        <legend><h2>Login</h2></legend>
+        <div class="container">
+            <label for="email"><b>Email</b></label></br>
+            <input type="email" placeholder="Enter email" name="email" required>
+            <div class="pass">
+                <label for="psw"><b>Password</b></label></br>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+            <button type="submit" class="log">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container">
+            <button type="button"> <a class="cancelbtn" href="header.html">Cancel</a></button>
+            <span class="acc"> <a class="cracc" href="register.html">Create Account</a></span>
+            <span class="psw"> <a class="resetpwd" href="resetpsw.html">Reset password</a></span>
+        </div>
+    </form>
+    </div>
+
+</body>
+</html>

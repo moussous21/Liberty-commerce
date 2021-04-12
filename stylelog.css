@@ -1,0 +1,178 @@
+﻿body {
+    background-image: url('https://wallpapercave.com/wp/wp4780791.jpg');
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.create {
+    border-radius: 5px;
+    background-color: #E4E7F1;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    border: 3px solid;
+    border: groove;
+}
+
+.reset {
+    border-radius: 5px;
+    background-color: #E4E7F1;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    border: 3px solid;
+    border: groove;
+    margin-top: 6%;
+}
+.login {
+    border-radius: 5px;
+    background-color: #E4E7F1;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    border: 3px solid;
+    border: groove;
+    margin-top: 6%;
+}
+
+.desprod {
+    border-radius: 5px;
+    background-color: #E4E7F1;
+    text-align: center;
+    width: 110%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    border: 3px solid;
+    border: groove;
+    margin-top: 0%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 32%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid palevioletred;
+    border-radius: 19px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+button {
+    outline: none;
+    background-image: linear-gradient(to right, #6563E6, #E66D63);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+   
+}
+
+    button:hover {
+        opacity: 0.5;
+    }
+
+.cancelbtn {
+    color: antiquewhite;
+    width: auto;
+    padding: 10px 18px;
+    //background-color: #f44336;
+    text-decoration: none;
+    width: auto;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    text-decoration: none;
+    float: right;
+    padding-top: 16px;
+}
+
+span.acc {
+
+    text-decoration: none;
+    float: left;
+    padding-top: 16px;
+}
+
+.log {
+    width: auto;
+    text-align: center;
+}
+
+.pass {
+    width: 100%;
+    text-align: center;
+}
+
+.resetpwd {
+    padding-bottom: 30px;
+    float: right;
+    font-family: monospace;
+    color: black;
+    text-decoration: none;
+}
+
+.cracc {
+    padding-top: 5px;
+    padding-left: 5px;
+    float:left;
+    font-family: monospace;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens*/
+@media screen and (max-width: 300px) {
+    span .psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: auto;
+    }
+}
+.column {
+    border-radius: 1%;
+    margin: 10px;
+    display: grid;
+    text-align: center;
+    float: left;
+    width: 35%;
+}
+.clearfix {
+    margin-top: 15%;
+}
+
+span img {
+    background: transparent !important;
+    max-width: 100%;
+}
